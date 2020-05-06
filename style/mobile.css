@@ -106,7 +106,7 @@
 }
 .mainProjectCardText h1 {
 	width: 90vw;
-	top: 6vw;
+	top: 20%;
 	font-size: 5.3vw;
 	line-height: 6.6vw;
 
@@ -115,7 +115,7 @@
 p.cardDate {
 	font-size: 3.2vw;
 	text-transform: uppercase;
-	top: 6vw;
+	top: 30%;
 }
 
 .basement {
