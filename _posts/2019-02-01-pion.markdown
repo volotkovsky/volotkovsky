@@ -1,0 +1,12 @@
+---
+layout: 'post'
+title:  "Логотип цветочного салона «Пион»"
+permalink: /pion/
+preview-image: "/img/previews/pion.png"
+date:   2017-05-20
+date-display: 'май 2017'
+tags: ["логотипы и айдентика"] 
+---
+
+<img src="https://thumb.tildacdn.com/tild6238-3635-4662-b534-666638323635/-/resize/560x/-/format/webp/pion_logo_static-01.png" alt=""><br>
+«Пион» — цветочный салон на Софиевской Борщаговке.

@@ -1,0 +1,9 @@
+---
+layout: 'post'
+title:  "Название проекта"
+permalink: /shablon
+preview-image: "/img/previews/file.png"
+date:   2020-05-04
+date-display: 'май 2020'
+tags: ["логотипы и айдентика"] 
+---
