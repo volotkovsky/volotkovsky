@@ -2,14 +2,17 @@
 <html prefix="og: http://ogp.me/ns#" lang="ru">
 <head>
 <title>Андрей Волотковский</title>
+<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 {% include head.html %}
 </head>
 <body>
 
 {% include header.html %}
-
+<div class="slider">
+  <a class="sliderFrame" href='/identity'><img class='sliderFrameImg' src="/img/slider/map.jpg" alt=""></a>
+  <a class="sliderFrame" href='/identity'><img class='sliderFrameImg' src="/img/slider/crvoi.jpg" alt=""></a>
+</div>
 {% include menu.html %}
-
 <div class="mainProjectsContainer">
 
   {% for post in site.posts %}
@@ -38,6 +41,7 @@
   window.location = $(this).find("a").attr("href"); 
   return false});
 </script>
-  
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script type="text/javascript" src="/slider.js"></script>
 </body>
 </html>

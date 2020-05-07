@@ -14,8 +14,17 @@
 
 	.header{
 		width: 100%;
-		height: 120pt;
+		grid-template-columns: 1fr 1fr;
 	}
+
+	.headerNav {
+		display: none;
+	}
+
+	.sliderFrameImg {
+		width: auto;
+	height: 65vh;
+} 
 
 	.postWrapper {
 		width: 100%;
