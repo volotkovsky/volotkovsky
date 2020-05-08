@@ -15,7 +15,7 @@ a {
 	color: #0C33FF;;
 }
 
-a:hover {
+.headerRight a:hover {
 	text-decoration: underline;
 }
 
@@ -147,6 +147,12 @@ p {
 	line-height: 18px;
 }
 
+/** Mobile Header */
+
+.mobileHeader {
+	display: none;
+}
+
 /** Category */
 
 .categoryHeadline {
@@ -191,14 +197,23 @@ p {
 	font-weight: 400;
 	color: white;
 	width: 100vw;
-	text-align: center;
+	justify-content: center;
 	
 } 
 
 .sliderFrameImg {
 	width: 100vw;
-	text-align: center;
+	display:block;
+    align-self: flex-start;
 } 
+
+.slick-slide img {
+	justify-content: center;
+}
+
+.slick-slide img {
+	align-self: flex-start;
+}
 
 /** Menu */
 
