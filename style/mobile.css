@@ -16,7 +16,7 @@
 		display: none;
 	}
 
-	.mobileHeader {
+	.mobileHeaderMain {
 		display: block;
 	}
 
@@ -36,7 +36,7 @@
 		width: 100%;
 		z-index: 3;
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: 0.7fr 1fr 1fr;
 		grid-template-rows: 1fr;
 	}
 
@@ -45,21 +45,23 @@
 		font-family: Inter;
 		font-weight: 400;
 		font-size: 3vw;
-
-		color: white;
-
-		background-color: rgba(0,0,0,0.7); 
-		backdrop-filter: blur(30px);
-		padding: 0.8em;
-		margin: 0.3em;
+		height: 2em;
+		padding-top: 6%;
+		color: black;
+		border: 3px black solid;
+		background-color: white; 
 		border-radius: 90px;
 		justify-content: center;
 		align-items: center;
 		text-align: center;
+		margin-left: 0.3em;
+		margin-right: 0.3em;
+		text-transform: uppercase;
 			}
 
 	#mobileClientBtn {
-		background-color: rgba(255,61,61,0.8);
+		background-color: rgba(3,94,252,1);
+		color: white;
 	}
 
 	.slider {
