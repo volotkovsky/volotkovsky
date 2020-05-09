@@ -167,7 +167,6 @@ p {
 }
 
 .categoryHeadline h1 {
-	display: flex;
   justify-content: left;
   align-items: center;
 }

@@ -37,14 +37,14 @@
 		height: 4em;
 		z-index: 3;
 		display: grid;
-		grid-template-columns: 0.7fr 1fr 1fr;
+		grid-template-columns: 0.65fr 1fr 1fr;
 		grid-template-rows: 1fr;
 	}
 
 	.mobileBtnContainer a {
 		display: inline-block;
 		font-family: Inter;
-		font-weight: 400;
+		font-weight: 500;
 		font-size: 3vw;
 		padding-top: 8pt;
 		color: black;
@@ -94,11 +94,25 @@
 
 	.categoryHeadline {
 		width: 90%;
+		height: 30vh;
+		grid-template-columns: auto;
+		grid-template-rows: 1fr 1fr; 
+		text-align: center;
 	}
 
 	.categoryHeadline h1 {
-		font-size: 6vw;
-		font-weight: 500;
+		font-size: 10vw;
+		font-weight: 400;
+		padding-top: 36px;
+		grid-row-start: 1;
+		text-align: center;
+	}
+
+	.iconBig {
+		padding-top: 5vh;
+		height: 20vw;
+		margin: 0 auto;
+		grid-row-start: 2;
 	}
 
 	.menuContainer {
@@ -175,6 +189,6 @@ p.cardDate {
 }
 
 .basement {
-	font-size: 4vw;
+	font-size: 3vw;
 }
 }

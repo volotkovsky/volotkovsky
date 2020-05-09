@@ -2,7 +2,7 @@
 layout: 'post'
 title:  "Логотип цветочного салона «Пион»"
 permalink: /pion/
-preview-image: "/img/previews/pion.png"
+preview-image: "/img/previews/pion.jpg"
 date:   2017-05-20
 date-display: 'май 2017'
 tags: ["логотипы и айдентика"] 
