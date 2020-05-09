@@ -1,6 +1,6 @@
 ---
 layout: 'post'
-title:  "Логотип сайта Фармперсонал"
+title:  "логотип сайта Фармперсонал"
 permalink: /logo/farmpersonal
 preview-image: "/img/previews/farmpersonal.jpg"
 date:   2019-04-18

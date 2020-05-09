@@ -83,9 +83,9 @@ p {
 /** Header */
 
 .header {
-  width: 1200px;
+  width: 100%;
   display: grid;
-  grid-template-columns: 20% 60% auto;
+  grid-template-columns: 15% 70% auto;
   grid-template-rows: 1fr;
   margin: 0 auto;
   padding-bottom: 30px;
@@ -294,15 +294,30 @@ p {
 /** Projects */
 
 .mainProjectsContainer {
-  width: 1200px;
+	width: 1600px;
   display: grid;
-  grid-template-columns: repeat(3, 400px);
+  grid-template-columns: repeat(4, 400px);
   grid-template-rows: repeat(auto, 400px);
   margin: 0 auto;
   border-radius: 0 15px 0 0;
   /** border-right: 1px solid #121212;
   border-bottom: 1px solid #121212; */
 }
+
+@media (max-width:1600px) {
+	.mainProjectsContainer {
+		width: 1200px;
+		grid-template-columns: repeat(3, 400px);
+	}
+}
+
+@media (max-width:1200px) {
+	.mainProjectsContainer {
+		width: 800px;
+		grid-template-columns: repeat(2, 400px);
+	}
+}
+
 
 .mainProjectCard:nth-child(1) {
 	border-radius: 5px 0 0 0;

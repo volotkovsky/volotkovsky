@@ -1,6 +1,6 @@
 ---
 layout: 'post'
-title:  "Логотип и элементы айдентики Komirenko"
+title:  "логотип и элементы айдентики Komirenko"
 permalink: /komirenko/
 preview-image: "/img/previews/komirenko.jpg"
 date:   2019-11-01
