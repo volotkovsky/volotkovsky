@@ -332,12 +332,15 @@ p {
   grid-row-start: auto;
   position: relative;
   width: 400px;
-  height: 500px;
+  height: 520px;
   /* border: 1px solid #121212;
   border-right: none;
   border-bottom: none;
   margin-top: -1px; */
   overflow: hidden;
+
+  outline: 1px solid lightgray;
+    outline-offset: -5px;
 }
 
 .mainProjectCard:hover {
@@ -355,7 +358,7 @@ p {
 
 .mainProjectCardText {
   position: absolute;
-  height: 100px;
+  height: 120px;
   left: 0%;
   right: 0%;
   bottom: 0px;
@@ -363,15 +366,16 @@ p {
 
 .mainProjectCardText h1 {
 	position: relative;
-	width: 350px;
-	left: 23px;
-	top: 14px;
+	max-width: 80%;
+    left: 8%;
+    top: 6%;
 
 	font-family: Inter;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 20px;
-	line-height: 26px;
+	font-size: 18px;
+	line-height: 24px;
+
 
 }
 
@@ -388,8 +392,9 @@ p {
 
 p.cardDate {
   position: relative;
-	width: 356px;
-	left: 23px;
+	width: 80%;
+    left: 8%;
+    padding-top: 4%;
 	color: #404040;
 	font-family: Inter;
 	font-style: normal;
@@ -400,6 +405,8 @@ p.cardDate {
 
 	display: flex;
 	align-items: flex-end;
+
+	overflow: hidden;
 }
 
 img.cardSnippet {
