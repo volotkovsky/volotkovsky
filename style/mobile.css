@@ -16,6 +16,22 @@
 		display: none;
 	}
 
+	.mobileLogoSmall {
+	display: block;
+	position: fixed;
+	margin: 0 auto;
+	padding-top: 18pt;
+	width: 100%;
+	height: 80pt;
+	text-align: center;
+	z-index: 99;
+	background: rgba(256, 256, 256, 0.95);
+
+}
+	.mobileLogoSmall img {
+		height: 50pt;
+	}
+
 	.mobileHeaderMain, .mobileLogo {
 		display: block;
 	}
@@ -45,18 +61,17 @@
 		display: inline-block;
 		font-family: Inter;
 		font-weight: 500;
-		font-size: 3vw;
-		padding-top: 8pt;
+		font-size: 22pt;
+		padding-top: 7.8pt;
 		color: black;
 		border: 3px black solid;
 		background-color: white; 
 		border-radius: 90px;
-		justify-content: center;
-		align-items: center;
 		text-align: center;
-		margin-left: 0.3em;
-		margin-right: 0.3em;
+		margin-left: 0.15em;
+		margin-right: 0.15em;
 		text-transform: uppercase;
+		letter-spacing: 0.05em;
 			}
 
 	#mobileClientBtn {
@@ -94,16 +109,16 @@
 
 	.categoryHeadline {
 		width: 90%;
-		height: 30vh;
+		height: 40vh;
 		grid-template-columns: auto;
-		grid-template-rows: 1fr 1fr; 
+		grid-template-rows: 2fr 1fr; 
 		text-align: center;
 	}
 
 	.categoryHeadline h1 {
 		font-size: 10vw;
 		font-weight: 400;
-		padding-top: 36px;
+		padding-top: 100pt;
 		grid-row-start: 1;
 		text-align: center;
 	}
@@ -158,7 +173,7 @@
 
 	.mainProjectCard {
 	  width: 100vw;
-	  height: 125vw;
+	  height: 130vw;
 	  border: none;
 	  border-bottom: 1px solid #121212;
 	}
@@ -172,20 +187,21 @@
 }
 .mainProjectCardText {
 	height: 25vw;
-	bottom: 20px;
+	top: 76%;
 }
 .mainProjectCardText h1 {
 	width: 90vw;
 	top: 20%;
-	font-size: 5.3vw;
-	line-height: 6.6vw;
+	left: 4%;
+	font-size: 32pt;
+    line-height: 42pt;
 
 }
 
 p.cardDate {
-	font-size: 3.2vw;
-	text-transform: uppercase;
-	top: 30%;
+	font-size: 22pt;
+	top: 16%;
+	left: 4%;
 }
 
 .basement {

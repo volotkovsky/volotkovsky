@@ -32,7 +32,8 @@ p {
 	line-height: 30px;
 }
 
-.header {
+.mobileLogo {
+	display: none;
 }
 
 /** Posts */
@@ -405,8 +406,6 @@ p.cardDate {
 
 	display: flex;
 	align-items: flex-end;
-
-	overflow: hidden;
 }
 
 img.cardSnippet {
