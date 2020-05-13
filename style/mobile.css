@@ -23,7 +23,7 @@
 	padding-top: 18pt;
 	width: 100%;
 	height: 80pt;
-	text-align: center;
+    padding-left: 4vw;
 	z-index: 99;
 	background: rgba(256, 256, 256, 0.95);
 
@@ -99,6 +99,14 @@
 
 	}
 
+	.postWrapper h1 {
+	width: 90vw;
+	padding-top: 10vh;
+	font-size: 42pt;
+	padding-right: 4vw;
+
+}
+
 	.postWrapper .image {
 	width: 100vw;
 }
@@ -107,12 +115,18 @@
 	width: 100%;
 }
 
+	.postDate {
+		font-size: 42px;
+	}
+
 	.categoryHeadline {
 		width: 90%;
 		height: 40vh;
 		grid-template-columns: auto;
-		grid-template-rows: 2fr 1fr; 
+		grid-template-rows: 1fr 1fr; 
 		text-align: center;
+		padding-top: 185px;
+
 	}
 
 	.categoryHeadline h1 {
@@ -205,6 +219,8 @@ p.cardDate {
 }
 
 .basement {
-	font-size: 3vw;
+	font-size: 22pt;
+	height: 250px;
+
 }
 }

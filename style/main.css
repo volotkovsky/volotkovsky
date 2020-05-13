@@ -84,9 +84,9 @@ p {
 /** Header */
 
 .header {
-  width: 100%;
+  width: 1200px;
   display: grid;
-  grid-template-columns: 15% 70% auto;
+  grid-template-columns: 17% 67% auto;
   grid-template-rows: 1fr;
   margin: 0 auto;
   padding-bottom: 30px;
@@ -150,7 +150,7 @@ p {
 
 /** Mobile Header */
 
-.mobileHeaderMain, .mobileLogo {
+.mobileHeaderMain, .mobileLogo,.mobileLogoSmall {
 	display: none;
 }
 
