@@ -24,16 +24,15 @@
 	display: block;
 	position: fixed;
 	margin: 0 auto;
-	padding-top: 18pt;
+	padding-top: 5pt;
 	width: 100%;
-	height: 80pt;
-    padding-left: 4vw;
+	height: 27pt;
+	padding-left: 4vw;
 	z-index: 99;
 	background: rgba(256, 256, 256, 0.95);
-
 }
 	.mobileLogoSmall img {
-		height: 50pt;
+		height: 20pt;
 	}
 
 	.mobileHeaderMain, .mobileLogo {
@@ -111,10 +110,9 @@
 
 	.postWrapper h1 {
 	padding-top: 10vh;
-	font-size: 42pt;
+	font-size: 17pt;
 	padding-right: 4vw;
 	line-height: normal;
-
 }
 
 	.postWrapper .image {
@@ -126,23 +124,22 @@
 }
 
 	.postDate {
-		font-size: 42px;
+		font-size: 18px;
 	}
 
 	.categoryHeadline {
 		width: 90%;
 		height: 40vh;
 		grid-template-columns: auto;
-		grid-template-rows: 1fr 1fr; 
+		grid-template-rows: 1fr 1fr;
 		text-align: center;
-		padding-top: 185px;
-
+		/* padding-top: 10px; */
 	}
 
 	.categoryHeadline h1 {
 		font-size: 10vw;
 		font-weight: 400;
-		padding-top: 100pt;
+		padding-top: 46pt;
 		grid-row-start: 1;
 		text-align: center;
 	}
@@ -199,7 +196,7 @@
 	  width: 100vw;
 	  height: 130vw;
 	  border: none;
-	  border-bottom: 1px solid #121212;
+	  /* border-bottom: 1px solid #121212; */
 	}
 
 	.previewWrap {
@@ -222,14 +219,13 @@
 }
 
 p.cardDate {
-	font-size: 11pt;
-	top: 16%;
+	font-size: 10pt;
+	top: 12%;
 	left: 4%;
 }
 
 .basement {
-	font-size: 22pt;
-	height: 250px;
-
+	font-size: 9pt;
+	height: 40px;
 }
 }
