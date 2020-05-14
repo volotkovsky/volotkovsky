@@ -177,6 +177,31 @@ p {
 	transition: 0.2s;
 }
 
+/** Headline */
+
+.mainHeadline {
+    font-family: Inter;
+    width: 1200px;
+    margin: 0 auto;
+    font-weight: 300;
+    font-size: 36pt;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.mainHeadline b {
+	font-weight: 600;
+}
+
+.mainBack {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: coral;
+    z-index: -1;
+}
+
 /** Slider */
 
 .slider {
