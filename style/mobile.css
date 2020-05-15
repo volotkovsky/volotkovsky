@@ -1,204 +1,210 @@
+@media (max-width:1250px) {
+.menuContainer {
+	width: 100%;
+}
+
+}
+
 @media (max-width:1200px) {
 
-	.header {
-		width: 100%;
-	}
-	.menuContainer {
-		width: 100%;
-		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-		margin: 0 auto;
-	}
+.header {
+	width: 100%;
+}
+.menuContainer {
+	width: 100%;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	margin: 0 auto;
+}
 
-	.mainHeadline {
-		width: 100%;
-	}
+.mainHeadline {
+	width: 100%;
+}
 }
 
 @media (max-width:1000px){
 
-	p {
-		font-size: 18px;
-	}
-
-	.header{
-		display: none;
-	}
-
-	.mobileLogoSmall {
-	display: block;
-	position: fixed;
-	margin: 0 auto;
-	padding-top: 5pt;
-	width: 100%;
-	height: 27pt;
-	padding-left: 4vw;
-	z-index: 99;
-	background: rgba(256, 256, 256, 0.95);
+p {
+	font-size: 18px;
 }
-	.mobileLogoSmall img {
-		height: 20pt;
+
+.header{
+	display: none;
+}
+
+.mobileLogoSmall {
+display: block;
+position: fixed;
+margin: 0 auto;
+padding-top: 5pt;
+width: 100%;
+height: 27pt;
+padding-left: 4vw;
+z-index: 99;
+background: rgba(256, 256, 256, 0.95);
+}
+.mobileLogoSmall img {
+	height: 20pt;
+}
+
+.mobileHeaderMain, .mobileLogo {
+	display: block;
+}
+
+.mobileLogo {
+	display: block;
+	position: absolute;
+	margin: 0 auto;
+	padding: 4vw;
+	width: 37vw;
+	z-index: 3;
+}
+
+.mobileBtnContainer {
+	position: fixed;
+	bottom: 1vh;
+	width: 100%;
+	height: 27px;
+	z-index: 3;
+	display: grid;
+	grid-template-columns: 0.65fr 1fr 1fr;
+	grid-template-rows: 1fr;
+}
+
+.mobileBtnContainer a {
+	display: inline-block;
+	font-family: Inter;
+	font-weight: 500;
+	font-size: 9pt;
+	padding-top: 4pt;
+	color: black;
+	border: 1px black solid;
+	background-color: white;
+	border-radius: 90px;
+	text-align: center;
+	margin-left: 0.15em;
+	margin-right: 0.15em;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
 	}
 
-	.mobileHeaderMain, .mobileLogo {
-		display: block;
-	}
+#mobileClientBtn {
+	border: 1px #fc2c03 solid;
+	color: #fc2c03;
+}
 
-	.mobileLogo {
-		display: block;
-		position: absolute;
-		margin: 0 auto;
-		padding: 4vw;
-		width: 37vw;
-		z-index: 3;
-		mix-blend-mode: exclusion;
-	}
-
-	.mobileBtnContainer {
-		position: fixed;
-		bottom: 1vh;
-		width: 100%;
-		height: 27px;
-		z-index: 3;
-		display: grid;
-		grid-template-columns: 0.65fr 1fr 1fr;
-		grid-template-rows: 1fr;
-	}
-
-	.mobileBtnContainer a {
-		display: inline-block;
-		font-family: Inter;
-		font-weight: 500;
-		font-size: 9pt;
-		padding-top: 4pt;
-		color: black;
-		border: 1px black solid;
-		background-color: white;
-		border-radius: 90px;
-		text-align: center;
-		margin-left: 0.15em;
-		margin-right: 0.15em;
-		text-transform: uppercase;
-		letter-spacing: 0.05em;
-		}
-
-	#mobileClientBtn {
-		border: 1px #fc2c03 solid;
-		color: #fc2c03;
-	}
-
-	.slider {
-		height: 100vh;
-	}
-
-	.sliderFrameImg {
-		width: auto;
+.slider {
 	height: 100vh;
+}
+
+.sliderFrameImg {
+	width: auto;
+height: 100vh;
 } 
 
-	.postWrapper {
-		width: 100%;
-		padding: 0 0 0 0;
-	}
-
-	.postWrapper p, .postWrapper h1, .postDate {
-	width: 95%;
-	padding-left: 4vw;
-	width: 90vw;
-
-	}
-
-	.postWrapper p {
-		line-height: normal;
-		font-size: 18px;
-	}
-
-	.postWrapper h1 {
-	padding-top: 10vh;
-	font-size: 17pt;
-	padding-right: 4vw;
-	line-height: normal;
-}
-
-	.postWrapper .image {
-	width: 100vw;
-}
-
-	.image img {
+.postWrapper {
 	width: 100%;
+	padding: 0 0 0 0;
 }
 
-	.postDate {
-		font-size: 18px;
-	}
+.postWrapper p, .postWrapper h1, .postDate {
+width: 95%;
+padding-left: 4vw;
+width: 90vw;
 
-	.categoryHeadline {
-		width: 90%;
-		height: 40vh;
-		grid-template-columns: auto;
-		grid-template-rows: 1fr 1fr;
-		text-align: center;
-		/* padding-top: 10px; */
-	}
-
-	.categoryHeadline h1 {
-		font-size: 10vw;
-		font-weight: 400;
-		padding-top: 46pt;
-		grid-row-start: 1;
-		text-align: center;
-	}
-
-	.iconBig {
-		padding-top: 5vh;
-		height: 20vw;
-		margin: 0 auto;
-		grid-row-start: 2;
-	}
-
-	.mainHeadline {
-    font-family: Inter;
-    width: 93vw;
-    margin: 0 auto;
-    font-weight: 100;
-    font-size: 31pt;
-    padding-top: 100px;
-    padding-bottom: 23px;
-    text-align: left;
 }
 
-	.menuContainer {
-	  width: 100vw;
-	  display: grid;
-	  grid-template-columns: 1fr 1fr 1fr;
-	  grid-template-rows: 32vw 32vw;
-	  grid-column-start: 2;
-	  grid-column-end: 8;
-	  margin-left: 0;
-	  margin-top: 3vh;
-	  margin-bottom: 3vh;
-	  padding: 0;
-	}
+.postWrapper p {
+	line-height: normal;
+	font-size: 18px;
+}
 
-	.menuBtn {
-		width: 30vw;
-		height: 30vw;
-		transition: 0.1s;
-		grid-template-columns: 100%;
-        grid-template-rows: 60% auto;
-	}
+.postWrapper h1 {
+padding-top: 10vh;
+font-size: 17pt;
+padding-right: 4vw;
+line-height: normal;
+}
 
-	.menuBtnLink {
-		font-size: 3.5vw;
-		line-height: 4vw;
-		font-weight: 500;
+.postWrapper .image {
+width: 100vw;
+}
 
-	}
+.image img {
+width: 100%;
+}
 
-	.mainProjectsContainer {
-	  width: 100vw;
-	  grid-template-columns: 100vw;
-	  grid-template-rows: repeat(auto, 125vw);
-	  border: none;
+.postDate {
+	font-size: 18px;
+}
+
+.categoryHeadline {
+	width: 90%;
+	height: 40vh;
+	grid-template-columns: auto;
+	grid-template-rows: 1fr 1fr;
+	text-align: center;
+	/* padding-top: 10px; */
+}
+
+.categoryHeadline h1 {
+	font-size: 10vw;
+	font-weight: 400;
+	padding-top: 46pt;
+	grid-row-start: 1;
+	text-align: center;
+}
+
+.iconBig {
+	padding-top: 5vh;
+	height: 20vw;
+	margin: 0 auto;
+	grid-row-start: 2;
+}
+
+.mainHeadline {
+font-family: Inter;
+width: 93vw;
+margin: 0 auto;
+font-weight: 100;
+font-size: 31pt;
+padding-top: 100px;
+padding-bottom: 23px;
+text-align: left;
+}
+
+.menuContainer {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 32vw 32vw;
+  grid-column-start: 2;
+  grid-column-end: 8;
+  margin-left: 0;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  padding: 0;
+}
+
+.menuBtn {
+	width: 30vw;
+	height: 30vw;
+	transition: 0.1s;
+	grid-template-columns: 100%;
+    grid-template-rows: 60% auto;
+}
+
+.menuBtnLink {
+	font-size: 3.5vw;
+	line-height: 4vw;
+	font-weight: 400;
+
+}
+
+.mainProjectsContainer {
+  width: 100vw;
+  grid-template-columns: 100vw;
+  grid-template-rows: repeat(auto, 125vw);
+  border: none;
 }
 
 .mainProjectCard:nth-child(1) {
@@ -209,19 +215,19 @@
 	border-radius: 0 0 0 0;
 }
 
-	.mainProjectCard {
-	  width: 100vw;
-	  height: 130vw;
-	  border: none;
-	  outline-offset: 0px;
-	}
+.mainProjectCard {
+  width: 100vw;
+  height: 130vw;
+  border: none;
+  outline-offset: 0px;
+}
 
-	.previewWrap {
-		height: 100vw;
-	}
+.previewWrap {
+	height: 100vw;
+}
 
-	img.cardSnippet {
-	  width: 100vw;
+img.cardSnippet {
+  width: 100vw;
 }
 .mainProjectCardText {
 	height: 25vw;

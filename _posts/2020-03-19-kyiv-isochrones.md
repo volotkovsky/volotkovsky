@@ -1,6 +1,6 @@
 ---
 layout: 'post'
-title:  "изохроны транспортной доступности центра Киева"
+title:  "карта транспортной доступности Киева"
 permalink: /maps/kyiv-isochrones
 preview-image: "/img/previews/kyiv-isochrones.jpg"
 date:   2020-03-19

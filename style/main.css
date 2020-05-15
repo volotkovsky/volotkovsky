@@ -23,6 +23,15 @@ h1 {
 	font-family: 'Inter';
 	font-weight: 400;
 	font-size: 40px;
+	display: flex;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 22pt;
+    font-weight: 400;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 p {
@@ -34,6 +43,24 @@ p {
 
 .mobileLogo {
 	display: none;
+}
+
+/** Pages */
+
+.pageWrap {
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+
+h1.wideGrey {
+    color: #4d4d4d;
+    text-transform: uppercase;
+    letter-spacing: 3pt;
+    font-size: 12pt;
+    font-weight: 300;
+    padding-top: 36px;
+    padding-bottom: 14px;
 }
 
 /** Posts */
@@ -93,7 +120,6 @@ p {
 }
 
 .header img {
-	padding-left: 25px;
 	padding-top: 30px;
 	width: 150px;
 	height: 45px;
@@ -187,7 +213,6 @@ p {
     font-size: 36pt;
     padding-top: 40px;
     padding-bottom: 60px;
-    text-align: center;
 }
 
 .mainHeadline b {
@@ -245,7 +270,7 @@ p {
 .menuContainer a { text-decoration: none; color: inherit}
 
 .menuContainer {
-  width: 1200px;
+  width: 1250px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 175px;
