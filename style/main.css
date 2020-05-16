@@ -7,7 +7,6 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { m
 
 ::selection {
 	background-color: #ccff00;
-	color: black;
 }
 
 a {
@@ -30,15 +29,15 @@ h2 {
     font-family: 'Inter', sans-serif;
     font-size: 22pt;
     font-weight: 400;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 50px;
+
 }
 
 p {
 	padding-top: 20px;
 	font-family: 'Inter', sans-serif;
-	font-size: 21px;
-	line-height: 30px;
+	font-size: 18px;
+	line-height: 25px;
 }
 
 .mobileLogo {
@@ -53,14 +52,19 @@ p {
 	padding-top: 40px;
 }
 
-h1.wideGrey {
-    color: #4d4d4d;
-    text-transform: uppercase;
-    letter-spacing: 3pt;
-    font-size: 12pt;
-    font-weight: 300;
-    padding-top: 36px;
-    padding-bottom: 14px;
+.pageWrap p {
+	width: 800px;
+}
+
+p.price {
+    background: #ffd662;
+    width: max-content;
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-weight: 600;
 }
 
 /** Posts */
@@ -96,7 +100,7 @@ h1.wideGrey {
 }
 
 .postWrapper p {
-	width: 600px;
+	width: 800px;
 }
 
 .postWrapper img {
@@ -205,26 +209,70 @@ h1.wideGrey {
 
 /** Headline */
 
+.mainHeadlineContainer {
+	width: 1200px;
+	height: 200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2.3fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
 .mainHeadline {
     font-family: Inter;
-    width: 1200px;
-    margin: 0 auto;
+    width: 100%;
     font-weight: 300;
     font-size: 36pt;
-    padding-top: 40px;
-    padding-bottom: 60px;
 }
 
 .mainHeadline b {
 	font-weight: 600;
 }
 
-.mainBack {
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    background-color: coral;
-    z-index: -1;
+.mainBtnContainer {
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mainBtnOutline {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainBtn {
+	width: 100px;
+	height: 100px;
+	display: flex;
+}
+
+#tgBtn {
+	background-image: url(/img/icons/icons-contact_tg.svg);
+}
+
+#tgBtn:hover {
+	background-image: url(/img/icons/icons-contact-hover_tg.svg);
+}
+
+#mailBtn {
+	background-image: url(/img/icons/icons-contact_mail.svg);
+}
+
+#mailBtn:hover {
+	background-image: url(/img/icons/icons-contact-hover_mail.svg);
+}
+
+#callBtn {
+	background-image: url(/img/icons/icons-contact_call.svg);
+}
+
+#callBtn:hover {
+	background-image: url(/img/icons/icons-contact-hover_call.svg);
 }
 
 /** Slider */

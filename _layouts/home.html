@@ -9,8 +9,21 @@
 {% include header.html %}
 {% include mobile-buttons.html %}
 <img class='mobileLogo' src="/img/av-logo.svg" alt="">
-<div class="mainHeadline">
-  <b>Андрей Волотковский</b>, дизайнер
+<div class="mainHeadlineContainer">
+  <div class="mainHeadline">
+    <b>Андрей Волотковский</b>, дизайнер
+  </div>
+  <div class="mainBtnContainer">
+    <div class="mainBtnOutline">
+      <div class="mainBtn" id='tgBtn' style="cursor: pointer;" onclick="window.location='http://t.me/volotkovsky';"></div>
+    </div>
+    <div class="mainBtnOutline">
+      <div class="mainBtn" id='mailBtn' style="cursor: pointer;" onclick="window.location='mailto:a.volotkovsky@gmail.com';"></div>
+    </div>
+    <div class="mainBtnOutline">
+      <div class="mainBtn" id='callBtn' style="cursor: pointer;" onclick="window.location='tel:+380664831682';"></div>
+    </div>
+  </div>
 </div>
 {% include menu.html %}
 <div class="mainProjectsContainer">
@@ -41,7 +54,9 @@
   window.location = $(this).find("a").attr("href"); 
   return false});
 </script>
+<!--
   <script type="text/javascript" src="slick/slick.min.js"></script>
   <script type="text/javascript" src="/slider.js"></script>
+-->
 </body>
 </html>
