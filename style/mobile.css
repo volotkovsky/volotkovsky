@@ -145,9 +145,9 @@ p.price {
 
 .categoryHeadline {
 	width: 90%;
-	height: 40vh;
+	height: 20vh;
 	grid-template-columns: auto;
-	grid-template-rows: 1fr 1fr;
+	grid-template-rows: auto 1fr;
 	text-align: center;
 	/* padding-top: 10px; */
 }
@@ -155,9 +155,10 @@ p.price {
 .categoryHeadline h1 {
 	font-size: 10vw;
 	font-weight: 400;
-	padding-top: 46pt;
 	grid-row-start: 1;
 	text-align: center;
+	display: block;
+	padding-bottom: 45px;
 }
 
 .iconBig {
