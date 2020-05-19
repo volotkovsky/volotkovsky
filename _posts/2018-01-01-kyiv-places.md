@@ -8,4 +8,4 @@ date-display: '2018'
 tags: ["карты"] 
 ---
 
-Данные собраны с OpenStreetMap.
+<p>Данные собраны с OpenStreetMap.</p>
