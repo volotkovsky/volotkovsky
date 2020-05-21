@@ -7,3 +7,5 @@ date:   2016-10-01
 date-display: 'октябрь 2016'
 tags: ["логотипы и айдентика"] 
 ---
+
+<img src="https://i.imgur.com/biwLR09.jpg" alt="">

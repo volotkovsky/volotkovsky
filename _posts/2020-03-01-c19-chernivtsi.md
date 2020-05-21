@@ -9,4 +9,3 @@ tags: ["карты"]
 ---
 
 <iframe width="720" height="405" src="https://www.youtube.com/embed/MCPOLqVmUm0?autoplay=1&loop=1&modestbranding=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
-<p>Черновецкая область была крупнейшим очагом коронавирусной инфекции в Украине, уступая лишь Киеву. В своем телеграм-канале Черновецкая областная госадминистрация публиковала статистику не только по области, но и по населенным пунктам. </p> 
