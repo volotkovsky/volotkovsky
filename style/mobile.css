@@ -126,8 +126,8 @@ padding-right: 4vw;
 line-height: normal;
 }
 
-.postWrapper .image {
-width: 100vw;
+.postWrapper img {
+width: 90vw;
 }
 
 .image img {

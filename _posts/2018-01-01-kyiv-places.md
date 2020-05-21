@@ -8,4 +8,5 @@ date-display: '2018'
 tags: ["карты"] 
 ---
 
+<img src="https://i.imgur.com/BbIu2O1.jpg" alt="">
 <p>Данные собраны с OpenStreetMap.</p>

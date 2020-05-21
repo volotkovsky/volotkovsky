@@ -104,10 +104,16 @@ p.price {
 }
 
 .postWrapper img {
-	padding-top: 5vh; 
-	padding-bottom: 5vh; 
-	border-radius: 5px;
-	overflow: hidden;
+	display: block;
+	margin-top: 25px;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+
+.imgTitle {
+    padding: 0;
+    text-align: center;
 }
 
 /** Home */

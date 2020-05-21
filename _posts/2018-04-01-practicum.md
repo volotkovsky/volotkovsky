@@ -7,3 +7,5 @@ date:   2018-04-01
 date-display: 'апрель 2018'
 tags: ["иллюстрации и плакаты", "иконки"] 
 ---
+
+<img src="https://i.imgur.com/mChbgUO.png" alt="">
