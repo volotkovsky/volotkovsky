@@ -1,6 +1,6 @@
 ---
 layout: 'category'
-title: 'Иллюстрации и плакаты'
+title: 'Ілюстрації та плакати'
 permalink: /pics-and-posters
 icon: '/img/icons/icon_posters.svg'
 ---
@@ -8,7 +8,7 @@ icon: '/img/icons/icon_posters.svg'
 <div class="mainProjectsContainer">
 
   {% for post in site.posts %}
-  {% if post.tags contains "иллюстрации и плакаты" %}
+  {% if post.tags contains "ілюстрації та плакати" %}
   <div class="mainProjectCard">
     <div class="previewWrap"><img src="{{post.preview-image}}" alt="{{post.title}}" class="cardSnippet"></div>
     <div class="mainProjectCardText">

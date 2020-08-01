@@ -1,6 +1,6 @@
 ---
 layout: 'category'
-title: 'Полиграфия'
+title: 'Поліграфія'
 permalink: /print
 icon: '/img/icons/icon_print.svg'
 ---
@@ -8,7 +8,7 @@ icon: '/img/icons/icon_print.svg'
 <div class="mainProjectsContainer">
 
   {% for post in site.posts %}
-  {% if post.tags contains "полиграфия" %}
+  {% if post.tags contains "поліграфія" %}
   <div class="mainProjectCard">
     <div class="previewWrap"><img src="{{post.preview-image}}" alt="{{post.title}}" class="cardSnippet"></div>
     <div class="mainProjectCardText">

@@ -1,12 +1,12 @@
 ---
 layout: 'post'
-title:  "логотип магазина Hardpunch"
+title:  "Логотип магазину Hardpunch"
 permalink: /logo/hardpunch
 preview-image: "/img/previews/hardpunch.jpg"
 date:   2017-09-01
-date-display: 'сентябрь 2017'
-tags: ["логотипы и айдентика"] 
+date-display: 'вересень 2017'
+tags: ["логотипи та айдентика"] 
 ---
 
 <img src="https://i.imgur.com/hxujUW0.jpg" alt=""><br>
-Hardpunch — магазин спортивной экипировки для занятий единоборствами.
+Hardpunch — магазин спортивного екіпірування для занять єдиноборствами.

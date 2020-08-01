@@ -1,11 +1,11 @@
 ---
 layout: 'post'
-title:  "визитка  студии дизайна интерьера"
+title:  "Візитівка студії дизайну інтер'єру"
 permalink: /cards/clockwork
 preview-image: "/img/previews/clockwork.jpg"
 date:   2015-12-01
-date-display: 'декабрь 2015'
-tags: ["полиграфия", "иллюстрации и плакаты"] 
+date-display: 'грудень 2015'
+tags: ["поліграфія", "ілюстрації та плакати"] 
 ---
 
 <img src="https://i.imgur.com/yy7TUbO.jpg" alt=""><br>

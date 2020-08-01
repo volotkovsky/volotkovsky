@@ -1,6 +1,6 @@
 ---
 layout: 'category'
-title: 'Шрифты'
+title: 'Шрифти'
 permalink: /type
 icon: '/img/icons/icon_fonts.svg'
 ---
@@ -8,7 +8,7 @@ icon: '/img/icons/icon_fonts.svg'
 <div class="mainProjectsContainer">
 
   {% for post in site.posts %}
-  {% if post.tags contains "Шрифты" %}
+  {% if post.tags contains "Шрифти" %}
   <div class="mainProjectCard">
     <div class="previewWrap"><img src="{{post.preview-image}}" alt="{{post.title}}" class="cardSnippet"></div>
     <div class="mainProjectCardText">

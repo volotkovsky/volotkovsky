@@ -1,12 +1,12 @@
 ---
 layout: 'post'
-title:  "карта плотности ресторанов, клубов и баров Киева"
+title:  "Мапа щільності ресторанів, кав'ярень та барів у Києві"
 permalink: /maps/kyiv-places
 preview-image: "/img/previews/kyiv-places.jpg"
 date:   2018-01-01
 date-display: '2018'
-tags: ["карты"] 
+tags: ["мапи"] 
 ---
 
 <img src="https://i.imgur.com/BbIu2O1.jpg" alt="">
-<p>Данные собраны с OpenStreetMap.</p>
+<p>Дані зібрано з OpenStreetMap.</p>

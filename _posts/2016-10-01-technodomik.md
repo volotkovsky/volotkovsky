@@ -1,11 +1,11 @@
 ---
 layout: 'post'
-title:  "логотип интернет-магазина «Техно-домик»"
+title:  "Логотип інтернет-магазину «Техно-домик»"
 permalink: /identity/technodomik
 preview-image: "/img/previews/technodomik.jpg"
 date:   2016-10-01
-date-display: 'октябрь 2016'
-tags: ["логотипы и айдентика"] 
+date-display: 'жовтень 2016'
+tags: ["логотипи та айдентика"] 
 ---
 
 <img src="https://i.imgur.com/biwLR09.jpg" alt="">
