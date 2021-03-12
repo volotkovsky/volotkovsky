@@ -8,7 +8,7 @@ icon: '/img/icons/icon_fonts.svg'
 <div class="mainProjectsContainer">
 
   {% for post in site.posts %}
-  {% if post.tags contains "Шрифти" %}
+  {% if post.tags contains "шрифти" %}
   <div class="mainProjectCard">
     <div class="previewWrap"><img src="{{post.preview-image}}" alt="{{post.title}}" class="cardSnippet"></div>
     <div class="mainProjectCardText">
