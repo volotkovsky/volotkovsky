@@ -427,7 +427,7 @@ p.price {
   grid-row-start: auto;
   position: relative;
   width: 400px;
-  height: 520px;
+  height: 500px;
   overflow: hidden;
   border: 1px solid lightgray;
   border-radius: 10px;
@@ -449,7 +449,7 @@ p.price {
 
 .mainProjectCardText {
   position: absolute;
-  height: 120px;
+  height: 90px;
   left: 0%;
   right: 0%;
   bottom: 0px;
