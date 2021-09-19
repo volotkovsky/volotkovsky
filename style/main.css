@@ -601,6 +601,9 @@ p.price {
 }
 
 p.cardDate {
+
+	display: none;
+	
   position: relative;
 	width: 80%;
     left: 8%;
@@ -611,10 +614,10 @@ p.cardDate {
 	font-weight: 400;
 	font-size: 12px;
 	line-height: 14px;
-	/* identical to box height */
+	/* identical to box height 
 
 	display: flex;
-	align-items: flex-end;
+	align-items: flex-end; */
 }
 
 img.cardSnippet {
