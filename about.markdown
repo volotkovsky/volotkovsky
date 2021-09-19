@@ -1,7 +1,7 @@
 ---
 layout: 'page'
 title:  "Біо"
-permalink: /about
+permalink: /bio
 ---
 <img class='avatar' src='/img/me.jpg'>
 <p>Живу та працюю в Києві.</p>

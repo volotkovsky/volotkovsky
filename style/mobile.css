@@ -11,8 +11,9 @@
 }
 
 .menuContainer {
-	width: 100%;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	width: 540px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 180px 180px 180px;
 	margin: 0 auto;
 }
 
@@ -27,8 +28,17 @@ p {
 	font-size: 18px;
 }
 
-.header{
+ul {
+	margin: 18px 0px;
+	padding: 0px 0px 0px 40px;
+}
+
+#top-banner-buttons {
 	display: none;
+}
+
+#top-banner-logo {
+	left: calc((100vw - 300px)/ 2);
 }
 
 .mobileLogoSmall {
@@ -66,7 +76,7 @@ background: rgba(256, 256, 256, 0.95);
 	height: 27px;
 	z-index: 3;
 	display: grid;
-	grid-template-columns: 0.60fr 1fr 1fr;
+	grid-template-columns: 0.4fr 1fr 1fr;
 	grid-template-rows: 1fr;
 }
 
@@ -104,7 +114,6 @@ height: 100vh;
 .postWrapper, .pageWrap {
 	width: 100%;
 	padding: 0 0 0 0;
-	padding-top: 10vh;
 }
 
 .postWrapper p, .postWrapper h1, .postDate, .pageWrap p, .pageWrap h1, .pageWrap h2 {
@@ -120,7 +129,7 @@ width: 90vw;
 }
 
 .postWrapper h1 {
-padding-top: 0;
+padding-top: 16px;
 font-size: 17pt;
 padding-right: 4vw;
 line-height: normal;
@@ -144,10 +153,10 @@ p.price {
 }
 
 .categoryHeadline {
-	width: 90%;
-	height: 20vh;
+	width: 100%;
+	height: 180px;
 	grid-template-columns: auto;
-	grid-template-rows: auto 1fr;
+	grid-template-rows: 95px 1fr;
 	text-align: center;
 	/* padding-top: 10px; */
 }
@@ -155,17 +164,16 @@ p.price {
 .categoryHeadline h1 {
 	font-size: 10vw;
 	font-weight: 400;
-	grid-row-start: 1;
+	grid-row-start: 2;
 	text-align: center;
 	display: block;
 	padding-bottom: 45px;
 }
 
 .iconBig {
-	padding-top: 5vh;
 	height: 20vw;
 	margin: 0 auto;
-	grid-row-start: 2;
+	grid-row-start: 1;
 }
 
 .mainHeadlineContainer {
@@ -208,7 +216,7 @@ grid-column-start: 2;
 grid-column-end: 8;
 margin-left: 0;
 margin-top: 5pt;
-margin-bottom: 5pt;
+margin-bottom: 10pt;
 padding: 0;
 }
 
@@ -242,12 +250,20 @@ padding: 0;
 	border-radius: 0 0 0 0;
 }
 
+.mainProjectCardMobileClick {
+	display: inherit;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 99;
+}
+
 .mainProjectCard {
 width: 100vw;
 height: 130vw;
 border: none;
 outline-offset: 0px;
-z-index: -1;
+z-index: 99;
 background-color: white;
 box-shadow: 0 0 3px 1px rgb(0 0 0 / 20%);
 }

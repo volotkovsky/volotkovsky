@@ -8,8 +8,7 @@
 <body>
 {% include header.html %}
 {% include mobile-buttons.html %}
-<img class='mobileLogo' src="/img/av-logo.svg" alt="">
-<div class="mainHeadlineContainer">
+<!-- <div class="mainHeadlineContainer">
   <div class="mainHeadline">
     <b>Андрій Волотковський</b>, дизайнер
   </div>
@@ -19,7 +18,7 @@
     </div>
     <div class="mainBtnOutline">
       <div class="mainBtn" id='mailBtn' style="cursor: pointer;" onclick="window.location='mailto:a.volotkovsky@gmail.com';"></div>
-    </div>
+    </div> -->
     <!-- <div class="mainBtnOutline">
       <div class="mainBtn" id='callBtn' style="cursor: pointer;" onclick="window.location='tel:+380000000000';"></div>
     </div> -->
@@ -30,9 +29,9 @@
 
   {% for post in site.posts %}
   <div class="mainProjectCard">
-    <div class="previewWrap"><img src="{{post.preview-image}}" alt="" class="cardSnippet"></div>
+    <div class="previewWrap"><a href ='{{post.url}}'><img src="{{post.preview-image}}" alt="" class="cardSnippet"></a></div>
     <div class="mainProjectCardText">
-      <h1><a href =' {{post.url}} '> {{post.title}} </a></h1>
+      <h1><a href ='{{post.url}}'> {{post.title}} </a></h1>
       <!-- <p class="cardDate">{{post.date-display}}</p> -->
     </div>
   </div>
@@ -46,14 +45,18 @@
   src="https://code.jquery.com/jquery-3.5.0.min.js"
   integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
   crossorigin="anonymous"></script>
+
 <script>
-  $(".menuBtn").click(function() {
+
+  $(".menuBtn").on('click touch', function() {
   window.location = $(this).find("a").attr("href"); 
   return false});
-  $(".mainProjectCard").click(function() {
+  $(".mainProjectCard").on('click touch', function() {
   window.location = $(this).find("a").attr("href"); 
   return false});
+
 </script>
+
 <!--
   <script type="text/javascript" src="slick/slick.min.js"></script>
   <script type="text/javascript" src="/slider.js"></script>
