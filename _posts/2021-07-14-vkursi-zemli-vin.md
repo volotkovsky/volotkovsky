@@ -5,9 +5,8 @@ permalink: /print/vkursi-vin
 preview-image: "/img/previews/vkursi-vin.jpg"
 date:   2021-07-14
 date-display: '14 липня 2021'
-tags: ["поліграфія"] 
+tags: ["поліграфія", "датавіз"] 
 ---
-
 
 <p>Vkursi Zemli Ukraine — це серія довідників, що в зручному форматі інфографіки надають аграріям, державній та місцевій владі актуальну картину земельних відносин в кожній з областей України.</p>
 <img src="https://i.imgur.com/6FsFZnF.png"><br>
