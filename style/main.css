@@ -655,5 +655,11 @@ img.avatar {
 
 }
 
+/** Individual */
+
+.daysoftype {
+margin: 0;
+  }
+
 /** Clearfix */
 .footer-col-wrapper:after, .wrapper:after { content: ""; display: table; clear: both; }
