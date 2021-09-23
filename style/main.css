@@ -3,6 +3,12 @@
 /** Reset some basic elements */
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
 
+/** Individual */
+
+.postwrapper img.daysoftype {
+margin: 0;
+  }
+
 /** Site-wide **/
 
 ::selection {
@@ -655,11 +661,7 @@ img.avatar {
 
 }
 
-/** Individual */
 
-img.daysoftype {
-margin: 0;
-  }
 
 /** Clearfix */
 .footer-col-wrapper:after, .wrapper:after { content: ""; display: table; clear: both; }
