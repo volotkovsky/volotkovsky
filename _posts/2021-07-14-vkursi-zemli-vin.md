@@ -8,9 +8,13 @@ date-display: '14 липня 2021'
 tags: ["поліграфія", "датавіз"] 
 ---
 
-<p>Vkursi Zemli Ukraine — це серія довідників, що в зручному форматі інфографіки надають аграріям, державній та місцевій владі актуальну картину земельних відносин в кожній з областей України.</p>
-<img src="https://i.imgur.com/6FsFZnF.png"><br>
-<img src="https://i.imgur.com/roZ6nTW.png"><br>
-<img src="https://i.imgur.com/MvBRNES.png"><br>
-<img src="https://i.imgur.com/69zT6JP.png"><br>
+<p>Vkursi Zemli Ukraine — це серія довідників, що в форматі інфографіки надають актуальну картину земельних відносин в кожній з областей України.</p>
+<img src="https://i.imgur.com/Dn09d3g.png"><br>
+<img src="https://i.imgur.com/kRgFdJ0.png"><br>
+<img src="https://i.imgur.com/5N9TttY.png"><br>
+<img src="https://i.imgur.com/2O0zwIR.png"><br>
+<img src="https://i.imgur.com/IXyGJHo.png"><br>
+<img src="https://i.imgur.com/ELFujjw.png"><br>
+<img src="https://i.imgur.com/DyKd0dt.png"><br>
+<img src="https://i.imgur.com/KuPmeR4.png"><br>
 <p>Довідники доступні для завантаження на <a href="https://vkursiagro.com.ua/">vkursiagro.com.ua</a>.</p>
