@@ -17,4 +17,4 @@ tags: ["поліграфія", "датавіз"]
 <img id="vkursi" src="https://i.imgur.com/ELFujjw.png"><br>
 <img id="vkursi" src="https://i.imgur.com/DyKd0dt.png"><br>
 <img id="vkursi" src="https://i.imgur.com/KuPmeR4.png"><br>
-<p>Довідники доступні для завантаження на <a href="https://vkursiagro.com.ua/">vkursiagro.com.ua</a>.</p>
+<p>Довідники у форматі PDF доступні для завантаження на <a href="https://vkursiagro.com.ua/">vkursiagro.com.ua</a>.</p>
