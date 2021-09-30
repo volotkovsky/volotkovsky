@@ -1,6 +1,6 @@
 ---
 layout: 'category'
-title: 'Мапи'
+title: 'Карти'
 permalink: /maps
 icon: '/img/icons/icon_maps.svg'
 ---

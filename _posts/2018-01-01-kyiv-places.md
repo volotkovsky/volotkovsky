@@ -1,6 +1,6 @@
 ---
 layout: 'post'
-title:  "Мапа щільності ресторанів, кав'ярень та барів у Києві"
+title:  "Карта щільності ресторанів, кав'ярень та барів у Києві"
 permalink: /maps/kyiv-places
 preview-image: "/img/previews/kyiv-places.jpg"
 date:   2018-01-01

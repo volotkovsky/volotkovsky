@@ -1,6 +1,6 @@
 ---
 layout: 'post'
-title:  "Мапа поширення COVID-19 на Буковині"
+title:  "Карта поширення COVID-19 на Буковині"
 permalink: /maps/c19-chernivtsi
 preview-image: "/img/previews/c19-chernivtsi.jpg"
 date:   2020-04-07

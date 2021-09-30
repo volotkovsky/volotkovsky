@@ -1,6 +1,6 @@
 ---
 layout: 'post'
-title:  "Ілюстрації для мапи України"
+title:  "Ілюстрації для карти України"
 permalink: /draw/ukraine-map-drawings
 preview-image: "/img/previews/ukraine-map-drawings.jpg"
 date:   2020-09-25
