@@ -1,7 +1,7 @@
 ---
 layout: 'category'
-title: 'Ілюстрації та плакати'
-permalink: /pics-and-posters
+title: 'Ілюстрації та банери'
+permalink: /pics-and-banners
 icon: '/img/icons/icon_posters.svg'
 ---
 
