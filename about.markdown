@@ -38,6 +38,7 @@ permalink: /cv
 <ul>
 	<li>Різноманітні задачі з дизайну</li>
 </ul><hr class='cv'><br>
+<a href="https://andriy1.gumroad.com/">Gumroad</a><br><br>
 <a href="https://t.me/volotkovsky">Telegram</a><br><br>
 <a href='https://www.instagram.com/a.v.t.s.k/'>Instagram</a><br><br>
 <a href='/'>повернутись до портфоліо</a>
