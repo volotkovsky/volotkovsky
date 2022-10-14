@@ -20,21 +20,21 @@ permalink: /cv
 	<li>Оформлення архітектурних планів і технічних креслень різного профілю</li>
 </ul><hr class='cv'>
 <h2 class='cv'><a href='https://www.sensoai.com'>SensoAI</a></h2>
-<p class='cv-years'>IT, e-health<br>06.2019 — 11.2021</p>
+<p class='cv-years'>IT, e-health<br>06.2019 — 11.2021<br>проєктна робота</p>
 <ul>
 	<li>Презентації в Google Slides</li>
 	<li>Інфографіка та звіти</li>
 	<li>Ілюстрації</li>
 </ul><hr class='cv'>
 <h2 class='cv'><a href='https://vkursi.pro/zemli'>Vkursi Agro</a></h2>
-<p class='cv-years'>data science, точне землеробство<br>04.2021 — 11.2021</p>
+<p class='cv-years'>data science, точне землеробство<br>04.2021 — 11.2021<br>проєктна робота</p>
 <ul>
 	<li>Дизайн і верстка <a href='/print/vkursi-vin'>інфографічних звітів</a></li>
 	<li>Додрукарська підготовка</li>
 	<li>Банери для соцмереж</li>
 </ul><hr class='cv'>
 <h2 class='cv'><a href='https://www.inchkiev.ua/'>INCHKYIV</a></h2>
-<p class='cv-years'>фармацевтичний маркетинг<br>11.2021 — 07.2022</p>
+<p class='cv-years'>фармацевтичний маркетинг<br>11.2021 — 07.2022<br>фулл-тайм</p>
 <ul>
 	<li>Різноманітні задачі з дизайну</li>
 </ul><hr class='cv'><br>
